@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["webworker", "webworker.importscripts", "esnext"],
+    "noEmit": false,
+    "outDir": ".serwist-build"
+  },
+  "include": ["src/app/sw.ts"]
+}
